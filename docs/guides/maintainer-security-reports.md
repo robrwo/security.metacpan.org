@@ -68,7 +68,7 @@ It is acceptable to release separate versions with fixes for different vulnerabi
 When you have released a fix, please notify CPANSec so that we can publish or update the CVE.
 
 If you need further information, please see the [CPANSec CNA and CVE Frequently Asked Questions](/docs/cna-faq)
-and the CNA Disclosure Policy](/docs/cna-disclosure-policy).
+and the [CNA Disclosure Policy](/docs/cna-disclosure-policy).
 
 CPANSec has several [Guides for CPAN Authors and Users](https://security.metacpan.org/docs/guides/).
 
