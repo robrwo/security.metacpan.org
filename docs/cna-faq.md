@@ -3,7 +3,7 @@ layout: single
 published: true
 toc: true
 title: "CPANSec CNA and CVE Frequently Asked Questions (FAQ)"
-date: 2025-01-05 18:15:00 +0000
+date: 2026-06-21 12:00:00 +0000
 tags: faq cna cve
 authors:
   - robrwo
