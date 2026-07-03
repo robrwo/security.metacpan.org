@@ -301,7 +301,7 @@ December 2024.
 
 * Version: 0.3.2
 * License: [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed)
-* Copyright: © Robert Rothenberg <rrwo@cpan.org>, Some rights reserved.
+* Copyright: © Robert Rothenberg <rrwo@cpansec.org>, Some rights reserved.
 
 You may use, modify and share this file under the terms of the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed) license.
 
