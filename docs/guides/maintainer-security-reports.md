@@ -2,7 +2,7 @@
 layout: single
 published: true
 toc: true
-title: "Security Reports for Module Maintainers"
+title: "Security Reports for CPAN Authors"
 date: 2026-07-03 11:00:00 +0000
 tags: cpan module authors bug triage
 authors:
