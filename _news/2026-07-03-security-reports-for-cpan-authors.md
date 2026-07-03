@@ -15,6 +15,6 @@ header:
   caption: "Photo credit: [@sjn](https://github.com/sjn)"
 ---
 
-We have added a new guide on [Security Reports for CPAN Authors](docs/guides/maintainer-security-reports.md).
+We have added a new guide on [Security Reports for CPAN Authors](/docs/guides/maintainer-security-reports.html).
 
 This is advice for CPAN authors and module maintainers on what to do if you receive a security report.
