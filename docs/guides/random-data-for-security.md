@@ -8,8 +8,8 @@ toc: true
 
 ## Random in general
 
-Any secret token that allows someone to access a resource or perform an action should be generated with a secure
-random number generator.  That includes:
+Any security feature that requires random values should be generated with a secure random number generator.
+That includes:
 
 - encryption keys
 - message padding and initialisation vectors
