@@ -57,7 +57,10 @@ You do not need to apply this patch, although CPANSec may publish this patch alo
 If there is a problem with that patch, then please notify CPANSec.
 
 When you release a module with a fix, please indicate the CVE numbers in the change log.
-(If the report contains other codes such as [CWE](https://cwe.mitre.org) or [CAPEC](https://capec.mitre.org) numbers, you do not need to include those in the change log. These are used for classifying vulnerability reports, but are not considered useful for software developers.)
+If you do not yet have a CVE number, contact CPANSec to request it.
+
+If the report contains other codes such as [CWE](https://cwe.mitre.org) or [CAPEC](https://capec.mitre.org) numbers, you do not need to include those in the change log.
+These are used for classifying vulnerability reports, but are not considered useful for software developers.
 
 If there are multiple vulnerabilities in the report, you do not need to fix them in the same release.
 It is acceptable to release separate versions with fixes for different vulnerabilities.
