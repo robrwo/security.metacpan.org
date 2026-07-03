@@ -13,9 +13,12 @@ authors:
 
 Don't panic.
 
-A vulnerability report is a bug report, but it is for a bug that may allow
-users to execute unauthorised code, access unauthorised resources, or
-to have an adverse impact on the system.
+Don't be ashamed.
+
+We understand.
+A lot of us are perfectionists and/or some pride into our work, and vulnerability reports can sting.
+But a vulnerability report is in the end just a bug report,
+but it is for a bug that may allow users to execute unauthorised code, access unauthorised resources, or to have an adverse impact on the system.
 
 The first thing you should do is acknowledge receipt of the report,
 ideally copying the CPAN Security Group [cpan-security@security.metacpan.org](mailto:cpan-security@security.metacpan.org)
