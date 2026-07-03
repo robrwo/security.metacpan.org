@@ -107,7 +107,7 @@ data returned may be less due to interrupts.
 
 ### Other modules
 
-There are several older modules on CPAN that have been intentionally
+There are several other modules on CPAN that have been intentionally
 omitted from this document:
 
 * They require users to select a source of randomness.
