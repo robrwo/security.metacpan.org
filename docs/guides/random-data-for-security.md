@@ -25,6 +25,7 @@ For any implementation of a protocol that specifies a random value, it is safer 
 
 The built-in [rand](https://perldoc.perl.org/functions/rand) function is not fit for security purposes: it is seeded
 by only 32-bits (4 bytes), and the [output can be predicted easily](https://www.perlmonks.org/?node_id=151595).
+The internal state of that function can be recovered, and one can [move forward or backward in the sequence](https://metacpan.org/pod/Math::Rand48::Cursor).
 
 A cryptographic-strength pseudo-random number generator (PRNG) won't improve security if it was seeded with data from
 `rand`: ultimately the output is of that algorithm still comes from a 32-bit seed.
@@ -276,6 +277,8 @@ December 2024.
 [ISAAC, a fast cryptographic random number generator](https://burtleburtle.net/bob/rand/isaacafa.html).
 
 [Lattice Reduction: a Toolbox for the Cryptanalyst](https://www.di.ens.fr/~stern/data/St54.pdf), A. Joux and J. Stern, 1994.
+
+[Math::Rand48::Cursor](https://metacpan.org/pod/Math::Rand48::Cursor)
 
 [Myths about /dev/urandom](https://www.thomas-huehn.com/myths-about-urandom/), March 2014.
 
