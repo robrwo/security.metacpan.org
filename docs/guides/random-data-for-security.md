@@ -80,6 +80,15 @@ processes with the same parent returning the same data (i.e., it is "fork safe")
 If [Crypt::SysRandom::XS](https://metacpan.org/pod/Crypt::SysRandom::XS) is installed, it will use that to retrieve
 random bytes from system calls.
 
+### Mojo::Util
+
+Since Mojolicious version 9.46, [Mojo::Util](https://metacpan.org/release/SRI/Mojolicious-9.46/view/lib/Mojo/Util.pm) has a `random_bytes` function:
+
+
+    use Mojo::Util qw( random_bytes );
+
+    my $bytes = random_bytes(32);
+
 ### Sys::GetRandom
 
 If you are writing code that only runs on Linux or BSD systems with the `getrandom` system call, you can use
