@@ -66,6 +66,8 @@ When you have released a fix, please notify CPANSec so that we can publish or up
 
 If you need further information, please see the [CPANSec CNA and CVE Frequently Asked Questions](/docs/cna-faq).
 
+CPANSec has several [Guides for CPAN Authors and Users](https://security.metacpan.org/docs/guides/).
+
 ## Submitting Reports
 
 If you have received a vulnerability report from someone unaffiliated with CPANSec, or found one while working on your module, then please notify us at [cpan-security@security.metacpan.org](mailto:cpan-security@security.metacpan.org).
