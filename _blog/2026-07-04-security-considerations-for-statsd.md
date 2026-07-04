@@ -69,7 +69,7 @@ There are several common security issues that we have found in the Perl modules 
 
 ## Metric Injection
 
-All of the Perl modules we looked at had missing or incomplete defenses against metric injections, where the metric names, values or tags could contain a newline and then additional metrics, for example
+All of the Perl modules we looked at as part of the April Task Force had missing or incomplete defenses against metric injections, where the metric names, values or tags could contain a newline and then additional metrics, for example
 
   myapp.response.
   malicious.counter:1|c
