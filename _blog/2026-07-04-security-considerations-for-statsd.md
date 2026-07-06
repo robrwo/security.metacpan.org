@@ -105,9 +105,9 @@ While the client may send data to a local statsd server, it is unclear if the da
 
 The set metric that is used to count the number of unique items, e.g.
 
-  myapp.users:ling@example.com|s
-  myapp.ip:1.2.3.4|s
-  myapp.sessions:a6a073f8ac226a336375d54706f9555c|s
+    myapp.users:ling@example.com|s
+    myapp.ip:1.2.3.4|s
+    myapp.sessions:a6a073f8ac226a336375d54706f9555c|s
 
 It is useful count the number of unique usernames, IP addresses, and sessions,
 but this can be seen as personally identifying information.
