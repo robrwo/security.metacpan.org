@@ -2,8 +2,8 @@
 layout: single
 published: true
 toc: true
-title: "CPANSec CNA Revised Disclosure Dates"
-date: 2026-07-06 14:00:00 +0100
+title: "CPANSec CNA Has Revised Our Default Disclosure Dates"
+date: 2026-07-06 18:00:00 +0100
 tags: cna cve embargo llm ai disclosure
 authors:
   - robrwo
@@ -11,7 +11,7 @@ authors:
   - stigtsp
 ---
 
-# CPANSec CNA Revised Disclosure Dates
+# CPANSec CNA Has Revised Our Default Disclosure Dates
 
 [TOC]
 
@@ -21,16 +21,16 @@ authors:
 - The vulnerability landscape is becoming more urgent.
   Informing users and the community faster of a vulnerability, allows for mitigations regardless of upstream action.
 - To adjust to this new situation, long embargoes are going away.
-- When we can confirm the validity of a vulnerability we assign a CVE indentifier immediately, notify authors about the vulnerability, and offer a default 14-day disclosure delay before the CVE is published.
+- When we can confirm the validity of a vulnerability we assign a CVE indentifier immediately, notify authors about the vulnerability, and offer a default 14-day planned disclosure date before the CVE is published.
 -  This is the standard process.
-   We can do longer delays if there is a good rationale.
+   We can do longer disclosure delays if there is a good rationale.
 - We may post issues about a vulnerability in an issue tracker or pull request as part of the disclosure process.
 
 ---
 
 ## Long embargos are becoming short disclosure delays
 
-At the [Perl Toolchain Summit in April 2026](https://perltoolchainsummit.org/pts2026/), members of the CPANSec CNA decided to reduce the _default_ disclosure delay ("embargo") for publishing vulnerabilities from 28 days to 14 days.
+At the [Perl Toolchain Summit in April 2026](https://perltoolchainsummit.org/pts2026/), members of the CPANSec CNA decided to reduce the _default_ planned disclosure date ("embargo") for publishing vulnerabilities from 28 days to 14 days.
 
 The feedback from some CPAN authors about this change has not always been positive, so we wanted to write down in detail why we have made this change.
 
@@ -125,7 +125,7 @@ Long embargoes means that details of unpublished security vulnerabilities which 
 A consensus in the security community is leaning towards a shorter disclosure delay of 14-days that gives most open source developers a chance to
 release a fix, e.g. [\[4\]](#references).
 
-(We have decided to replace the use of the term "embargo" for "disclosure delay".
+(We have decided to replace the use of the term "embargo" for "planned disclosure delay".
 In some of our messages to CPAN Authors we used the term "grace period" but have not decided against that, as it has the connotation of a moral fault.
 That is not our intention.)
 
@@ -137,7 +137,7 @@ And CPANSec needs the support and trust of the authors and users.
 
 CPANSec has decided that 14-days is usually enough time for most projects, and provides a good balance between giving authors enough time to fix a release and users timely information that they can use,
 
-When we reach out to module authors about a security issue, we will notify them of this policy, with the suggested disclosure date, but allow them to request an extension if they provide a reason for it.
+When we reach out to module authors about a security issue, we will notify them of this policy, with the planned disclosure date, but allow them to request an extension if they provide a reason for it.
 If you believe this is not enough time for you, let us know.
 
 We also offer to provide assistance, including patches.
