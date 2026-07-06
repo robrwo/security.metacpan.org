@@ -3,7 +3,7 @@ layout: single
 published: true
 toc: true
 title: "CPANSec CNA Revised Disclosure Dates"
-date: 2026-07-03 12:00:00 +0000
+date: 2026-07-06 14:00:00 +0100
 tags: cna cve embargo llm ai disclosure
 authors:
   - robrwo
