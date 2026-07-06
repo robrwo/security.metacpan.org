@@ -17,11 +17,13 @@ authors:
 
 ## Summary (TL;DR)
 
-- LLMs are powering vulnerability discovery, and many consider their results to be public already.
-- This means the vulnerability landscape is becoming more urgent. Slow response times mean more time to exploit.
-- To reduce the impact of this change, generous embargoes are going away.
-- Instead, we assign a CVE immediately, notify authors about the vulnerability, and offer a default 14-day disclosure delay before the CVE is published.
-- This delay period may still be extended, if the author requests it.
+- LLMs are powering vulnerability discovery, and many consider security issues that AI can discover to be public already.
+- The vulnerability landscape is becoming more urgent.
+  Informing users and the community faster of a vulnerability, allows for mitigations regardless of upstream action.
+- To adjust to this new situation, long embargoes are going away.
+- When we can confirm the validity of a vulnerability we assign a CVE indentifier immediately, notify authors about the vulnerability, and offer a default 14-day disclosure delay before the CVE is published.
+-  This is the standard process.
+   We can do longer delays if there is a good rationale.
 - We may post issues about a vulnerability in an issue tracker or pull request as part of the disclosure process.
 
 ---
