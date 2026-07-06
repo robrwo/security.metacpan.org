@@ -42,7 +42,7 @@ The technology has improved, from "slop" to "sloppy" but with the aide of additi
 
 The public nature of these tools means that anyone using these tools to find vulnerabilities can find them.
 If someone has found a bug, then anyone else using those tools will find that bug.
-In other words, the community consensus is that vulnerabilities are "public" [1] [2] [3].
+In other words, the community consensus is that vulnerabilities are "public" [\[1\]](#references) [\[2\]](#references) [\[3\]](#references).
 
 There are consequences to this change.
 
@@ -77,7 +77,7 @@ And it is *their* users (citizens, customers, or patients) who are affected when
 
 ### Projects are anticipating a flood of duplicate reports
 
-Some projects [1] have started receiving duplicate, LLM-generated reports.
+Some projects [\[1\]](#references) have started receiving duplicate, LLM-generated reports.
 
 Projects like Alpha-Omega have been supporting open source ecosystems by providing them with funds and access to LLMs to get a head start on identifying and fixing security issues.
 This includes the CPANSec April Task Force.
@@ -123,7 +123,7 @@ But it is also unfair to delay notifying users about steps they can take to prot
 Long embargoes means that details of unpublished security vulnerabilities which security teams have gathered becomes a prime target for attack.
 
 A consensus in the security community is leaning towards a shorter disclosure delay of 14-days that gives most open source developers a chance to
-release a fix, e.g. [4].
+release a fix, e.g. [\[4\]](#references).
 
 (We have decided to replace the use of the term "embargo" for "disclosure delay".
 In some of our messages to CPAN Authors we used the term "grace period" but have not decided against that, as it has the connotation of a moral fault.
