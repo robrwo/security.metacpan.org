@@ -3,8 +3,8 @@ layout: single
 published: true
 toc: false
 title: "Security Considerations for Statsd Clients"
-date: 2026-07-04 10:00:00 +0100
-tags:
+date: 2026-07-06 09:00:00 +0100
+tags: command injection leak metrics privacy sidejacking statsd
 author: robrwo
 author_profile: true
 excerpt: "There is no official specification or request for comments... A side-effect is that the security is often overlooked."
