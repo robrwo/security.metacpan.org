@@ -51,18 +51,18 @@ It also increments a counter for the number of HTTP POST request, and logs the t
 ## Problems with the specification
 
 There is no official specification or request for comments (RFC).
-There are informal specifications [4].
+There are informal specifications [\[4\]](#references).
 A side-effect is that the security is often overlooked.
 
 The specifications for statsd do not give much guidance on acceptable data.
 
-The values are usually numeric [4], although the "set" metric allows arbitrary strings and can be used to count the number of unique items, such as IP addresses or usernames.
+The values are usually numeric [\[4\]](#references), although the "set" metric allows arbitrary strings and can be used to count the number of unique items, such as IP addresses or usernames.
 
 There is no specification about what the metric name can contain.
 In many implementations they consist of multiple names separated by dots, e.g. "myapp.response.time".
 
 The simplicity of the protocol has allowed many client implementations.
-A list at [5] shows 58 clients.
+A list at [\[5\]](#references) shows 58 clients.
 It lists on three Perl clients, but we are aware of 11 Perl distributions that support statsd or an extension.
 
 There are several common security issues that we have found in the Perl modules we have looked at.
@@ -126,14 +126,14 @@ For [Net::Statsd::Lite](https://metacpan.org/pod/Net::Statsd::Lite) (which I mai
 | Module | Vulnerability | Description | Version Fixed |
 | --- | --- | --- | --- |
 | [Catalyst::Plugin::Statsd](https://metacpan.org/pod/Catalyst::Plugin::Statsd)   | [CVE-2026-45180](https://www.cve.org/CVERecord?id=CVE-2026-45180) | Leak session ids  | 0.10.0 |
-| [DataDog::DogStatsd](https://metacpan.org/pod/DataDog::DogStatsd)               | [CVE-2026-9270](https://www.cve.org/CVERecord?id=CVE-2026-9270), CVE-2026-11362  | Metric injection | |
+| [DataDog::DogStatsd](https://metacpan.org/pod/DataDog::DogStatsd)               | [CVE-2026-9270](https://www.cve.org/CVERecord?id=CVE-2026-9270), [CVE-2026-11362](https://www.cve.org/CVERecord?id=CVE-2026-11362)  | Metric injection | |
 | [Etsy::StatsD](https://metacpan.org/pod/Etsy::StatsD)                           | [CVE-2026-46741](https://www.cve.org/CVERecord?id=CVE-2026-46741) | Metric injection  | |
 | [Metrics::Any::Adapter::DogStatsd](https://metacpan.org/pod/Metrics::Any::Adapter::DogStatsd) | [CVE-2026-50638](https://www.cve.org/CVERecord?id=CVE-2026-50638) | Metric injection | 0.04 |
 | [Metrics::Any::Adapter::SignalFx](https://metacpan.org/pod/Metrics::Any::Adapter::SignalFx)   | [CVE-2026-50639](https://www.cve.org/CVERecord?id=CVE-2026-50639) | Metric injection | 0.04 |
 | [Metrics::Any::Adapter::Statsd](https://metacpan.org/pod/Metrics::Any::Adapter::Statsd)       | [CVE-2026-50637](https://www.cve.org/CVERecord?id=CVE-2026-50637) | Metric injection | 0.04 |
 | [Mojolicious::Plugin::Statsd](https://metacpan.org/pod/Mojolicious::Plugin::Statsd) | [CVE-2026-46740](https://www.cve.org/CVERecord?id=CVE-2026-46740) | Metric injection | 0.05 |
 | [Net::Async::Statsd](https://metacpan.org/pod/Net::Async::Statsd)               | [CVE-2026-8722](https://www.cve.org/CVERecord?id=CVE-2026-8722)  | Metric injection  | 0.005 |
-| [Net::Statsd::Lite](https://metacpan.org/pod/Net::Statsd::Lite)                 | [CVE-2026-46719](https://www.cve.org/CVERecord?id=CVE-2026-46719), CVE-2026-8788  | Metric injection  | 0.10.0  |
+| [Net::Statsd::Lite](https://metacpan.org/pod/Net::Statsd::Lite)                 | [CVE-2026-46719](https://www.cve.org/CVERecord?id=CVE-2026-46719), [CVE-2026-8788](https://www.cve.org/CVERecord?id=CVE-2026-8788)  | Metric injection  | 0.10.0  |
 | [Net::Statsd::Tiny](https://metacpan.org/pod/Net::Statsd::Tiny)                 | [CVE-2026-46720](https://www.cve.org/CVERecord?id=CVE-2026-46720) | Metric injection  | 0.3.8  |
 | [Net::Statsd](https://metacpan.org/pod/Net::Statsd)                             | [CVE-2026-46739](https://www.cve.org/CVERecord?id=CVE-2026-46739) | Metric injection  | 0.13   |
 | [Net::Statsite::Client](https://metacpan.org/pod/Net::Statsite::Client) | [CVE-2026-11373](https://www.cve.org/CVERecord?id=CVE-2026-11373) | Metric injection | |
