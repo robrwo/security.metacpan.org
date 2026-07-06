@@ -2,7 +2,7 @@
 layout: single
 published: true
 toc: true
-title: "CPANSec CNA Revised Grace Period"
+title: "CPANSec CNA Revised Disclosure Dates"
 date: 2026-07-03 12:00:00 +0000
 tags: cna cve embargo llm ai disclosure
 authors:
@@ -11,7 +11,7 @@ authors:
   - stigtsp
 ---
 
-# CPANSec CNA Revised Grace Period
+# CPANSec CNA Revised Disclosure Dates
 
 [TOC]
 
@@ -20,15 +20,15 @@ authors:
 - LLMs are powering vulnerability discovery, and many consider their results to be public already.
 - This means the vulnerability landscape is becoming more urgent. Slow response times mean more time to exploit.
 - To reduce the impact of this change, generous embargoes are going away.
-- Instead, we assign a CVE immediately, notify authors about the vulnerability, and offer a default 14-day grace period before the CVE is published.
+- Instead, we assign a CVE immediately, notify authors about the vulnerability, and offer a default 14-day disclosure delay before the CVE is published.
+- This delay period may still be extended, if the author requests it.
 - We may post issues about a vulnerability in an issue tracker or pull request as part of the disclosure process.
-- This grace period can still be extended, if the author offers a reason.
 
 ---
 
-## Long embargos are becoming short grace periods
+## Long embargos are becoming short disclosure delays
 
-At the [Perl Toolchain Summit in April 2026](https://perltoolchainsummit.org/pts2026/), members of the CPANSec CNA decided to reduce the _default_ grace period ("embargo") for publishing vulnerabilities from 28 days to 14 days.
+At the [Perl Toolchain Summit in April 2026](https://perltoolchainsummit.org/pts2026/), members of the CPANSec CNA decided to reduce the _default_ disclosure delay ("embargo") for publishing vulnerabilities from 28 days to 14 days.
 
 The feedback from some CPAN authors about this change has not always been positive, so we wanted to write down in detail why we have made this change.
 
@@ -104,7 +104,7 @@ The security team has to track this information and coordinate with project main
 
 And the CNAs for the ecosystem also have to publish CVEs for vulnerabilities.
 
-Of course, this already takes time (and is separate from or in parallel with the 14-day grace period).
+Of course, this already takes time (and is separate from or in parallel with the 14-day disclosure delay).
 
 ### Long embargos for vulnerabilities about open source projects problematic
 
@@ -120,8 +120,12 @@ But it is also unfair to delay notifying users about steps they can take to prot
 
 Long embargoes means that details of unpublished security vulnerabilities which security teams have gathered becomes a prime target for attack.
 
-A consensus in the security community is leaning towards a shorter grace period of 14-days that gives most open source developers a chance to
+A consensus in the security community is leaning towards a shorter disclosure delay of 14-days that gives most open source developers a chance to
 release a fix, e.g. [4].
+
+(We have decided to replace the use of the term "embargo" for "disclosure delay".
+In some of our messages to CPAN Authors we used the term "grace period" but have not decided against that, as it has the connotation of a moral fault.
+That is not our intention.)
 
 ## Perl and CPANSec
 
