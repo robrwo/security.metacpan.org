@@ -27,6 +27,5 @@ Some CPAN authors have expressed concerns about this change so we wanted to deta
 - When we can confirm the validity of a vulnerability we assign a CVE indentifier immediately, notify authors about the vulnerability, and offer a default 14-day planned disclosure date before the CVE is published.
 -  This is the standard process.
    Upon request we will work with maintainers who need longer disclosure periods.
-- We may post issues about a vulnerability in an issue tracker or pull request as part of the disclosure process.
 
 See [CPANSec Has Revied Our Default Disclosure Date](/docs/revised-disclosure-delay) for the full document.
