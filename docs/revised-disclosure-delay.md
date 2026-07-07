@@ -2,7 +2,7 @@
 layout: single
 published: true
 toc: true
-title: "CPANSec CNA Has Revised Our Default Disclosure Dates"
+title: "CPANSec Has Revised Our Default Disclosure Dates"
 date: 2026-07-06 18:00:00 +0100
 tags: cna cve embargo llm ai disclosure
 authors:
@@ -11,7 +11,7 @@ authors:
   - stigtsp
 ---
 
-# CPANSec CNA Has Revised Our Default Disclosure Dates
+# CPANSec Has Revised Our Default Disclosure Dates
 
 [TOC]
 
@@ -23,14 +23,14 @@ authors:
 - To adjust to this new situation, long embargoes are going away.
 - When we can confirm the validity of a vulnerability we assign a CVE indentifier immediately, notify authors about the vulnerability, and offer a default 14-day planned disclosure date before the CVE is published.
 -  This is the standard process.
-   We can do longer disclosure delays if there is a good rationale.
+   Upon request we will work with maintainers who need longer disclosure periods.
 - We may post issues about a vulnerability in an issue tracker or pull request as part of the disclosure process.
 
 ---
 
 ## Long embargos are becoming short disclosure delays
 
-At the [Perl Toolchain Summit in April 2026](https://perltoolchainsummit.org/pts2026/), members of the CPANSec CNA decided to reduce the _default_ planned disclosure date ("embargo") for publishing vulnerabilities from 28 days to 14 days.
+At the [Perl Toolchain Summit in April 2026](https://perltoolchainsummit.org/pts2026/), members of the CPANSec CNA  discussed disclosure periods and decided to reduce the _default_ planned disclosure date ("embargo") for publishing vulnerabilities from 28 days to 14 days.
 
 The feedback from some CPAN authors about this change has not always been positive, so we wanted to write down in detail why we have made this change.
 
