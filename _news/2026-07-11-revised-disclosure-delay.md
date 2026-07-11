@@ -2,7 +2,7 @@
 layout: single
 toc: false
 title: "CPANSec Has Revised Our Default Disclosure Dates"
-date: 2026-07-06 18:00:00 +0100
+date: 2026-07-11 12:00:00 +0100
 collection: news
 tags: cna cve embargo llm ai disclosure
 authors:
