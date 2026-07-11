@@ -22,8 +22,8 @@ authors:
   Informing users and the community faster of a vulnerability, allows for mitigations regardless of upstream action.
 - To adjust to this new situation, long embargoes are going away.
 - When we can confirm the validity of a vulnerability we assign a CVE indentifier immediately, notify authors about the vulnerability, and offer a default 14-day planned disclosure date before the CVE is published.
--  This is the standard process.
-   Upon request we will work with maintainers who need longer disclosure periods.
+- This is the standard process.
+  Upon request we will work with maintainers who need longer disclosure periods.
 
 
 ---
