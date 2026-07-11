@@ -20,12 +20,15 @@ members of the CPANSec CNA discussed disclosure periods and decided to reduce th
 
 Some CPAN authors have expressed concerns about this change so we wanted to detail the reasons for this change:
 
-- LLMs are powering vulnerability discovery, and many consider security issues that AI can discover to be public already.
-- The vulnerability landscape is becoming more urgent.
-  Informing users and the community faster of a vulnerability, allows for mitigations regardless of upstream action.
-- To adjust to this new situation, long embargoes are going away.
-- When we can confirm the validity of a vulnerability we assign a CVE identifier immediately, notify authors about the vulnerability, and offer a default 14-day planned disclosure date before the CVE is published.
-- This is the standard process.
-  Upon request we will work with maintainers who need longer disclosure periods.
+- LLMs are accelerating vulnerability discovery, and many in the security
+  community consider AI-discoverable issues to be effectively public already.
+- This makes long embargoes riskier: users need timely information so they
+  can mitigate, whether or not a fix is available upstream.
+- Once we confirm a vulnerability, we assign a CVE identifier,
+  notify the author, and set a planned disclosure date, after which the
+  CVE is published.
+- The default disclosure period is 14 days, but this is a recommendation,
+  not a hard deadline.  Maintainers who need more time can request an
+  extension, and we will work with them.
 
 See [CPANSec Has Revied Our Default Disclosure Date](/docs/revised-disclosure-delay) for the full document.
