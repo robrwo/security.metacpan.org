@@ -36,11 +36,12 @@ At the [Perl Toolchain Summit in April 2026](https://perltoolchainsummit.org/pts
 
 The feedback from some CPAN authors about this change has not always been positive, so we wanted to write down in detail why we have made this change.
 
-This change is largely due to changes in the technology used for security research, notably the availability of cheap computing power through cloud services and security scanning tools such as fuzzers and large language models (LLMs).
+This decision is driven by changes in the technology used for security research.
+The availability of cheap computing power and security scanning tools such as large language models (LLMs) have made vulnerability discovery faster and more accessible.
 
 LLMs are useful tools for identifying common patterns across large amounts of documents.
 The availability of source code, reference websites, books, blogs and forums online as a training corpus means that when used for vulnerability scanning, they can identify common patterns associated with security flaws, and they can combine multiple flaws into exploitable vulnerabilities.
-The technology has improved, and with the aid of additional tools to run specialised scans abd guard against mistakes, they can produce useful vulnerability reports.
+The technology has improved, and with the aid of additional tools to run specialised scans and guard against mistakes, they can produce useful vulnerability reports.
 
 But the public nature of these tools means that anyone using these tools to find vulnerabilities can find them.
 If someone has already found a bug, then anyone else using those tools can find that bug.
@@ -49,9 +50,6 @@ The security community consensus is that these vulnerabilities are "public" [\[1
 There are consequences to this change.
 
 ### LLM-generated security reports are a reality
-
-Many people in the open-source community have resevrations about the quality, ethics and politics of this technology.
-(And some of us in the Perl community and CPANSec do as well.)
 
 Whether we like it or not, the source code of many open source projects have been ingested by LLMs, and people are using those LLMs to discover security and bugs.
 
@@ -107,14 +105,14 @@ It is also worth finding other authors that you trust to have co-maintenance rig
 This means that if you will have collaborators who can help fix security issues.
 
 Next, add a [security policy](https://security.metacpan.org/docs/guides/security-policy-for-authors.html) with a single point of contact.
-Source repositores like GitHub support setting up [private security advisory reporting form](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository),
+Source repositories like GitHub support setting up [private security advisory reporting form](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository),
 that allows people to create private issues and forks which you and your collaborators can work on.
 
 If you do not want to maintain a module anymore, flag that by handing maintenance to [ADOPTME](https://neilb.org/2013/08/07/adoptme.html).
 You'll still have maintenance rights but another author will be able to take it over.
 You can also announce this in other forums to find interested authors who might take the module over.
 
-If the module is no longer suitable for use, then you release a last version that marks it as [deprecated](https://neilb.org/2015/01/17/deprecated-metadata.html) and update the documentaiton accordingly, ideally with recommended alternatives.
+If the module is no longer suitable for use, then you release a last version that marks it as [deprecated](https://neilb.org/2015/01/17/deprecated-metadata.html) and update the documentation accordingly, ideally with recommended alternatives.
 
 If you use a code repository with an issue tracker such as GitHub, ensure that MetaCPAN isn't linking to a separate queue in RT. Your [module metadata](https://metacpan.org/pod/CPAN::Meta::Spec#resources) and documentation should point to the correct issue tracker.
 
@@ -122,7 +120,7 @@ If you use a code repository with an issue tracker such as GitHub, ensure that M
 
 [1] Linus Torvalds, [Linux 7.1-rc4](https://lkml.org/lkml/2026/5/17/896), Linux Kernel Mailing List, 2026-05-17.
 
-[2] Jeremy Stanley,[Coordinated Disclosure in the LLM Age](https://www.openwall.com/lists/oss-security/2026/04/28/15), Open Source Software Security Mailing List, 2026-04-26.
+[2] Jeremy Stanley, [Coordinated Disclosure in the LLM Age](https://www.openwall.com/lists/oss-security/2026/04/28/15), Open Source Software Security Mailing List, 2026-04-26.
 
 [3] Filippo Valsorda, [Vulnerability Reports are not Special Anymore](https://words.filippo.io/vuln-reports/), 2026-06-23.
 
