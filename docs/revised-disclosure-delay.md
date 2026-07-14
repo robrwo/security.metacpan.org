@@ -105,7 +105,7 @@ First and foremost, please make sure your contact email address is correct and r
 If you previously have used a [cpan.org email forward address](https://security.metacpan.org/2026/06/14/cpan.org-email-forwarding-shutdown.html), please change it to something that actually reaches you.
 
 It is also worth finding other authors that you trust to have co-maintenance rights to your module.
-This means that if you will have collaborators who can help fix security issues.
+This means that you will have collaborators who can help fix security issues.
 
 Next, add a [security policy](https://security.metacpan.org/docs/guides/security-policy-for-authors.html) with a single point of contact.
 Source repositories like GitHub support setting up [private security advisory reporting form](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository),
