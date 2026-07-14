@@ -74,12 +74,15 @@ The Perl ecosystem (like other open-source ecosystems) is not a single project, 
 CPANSec needs to support the authors *and* the users.
 And CPANSec needs the support and trust of the authors and users.
 
-When we confirm a vulnerability, we will assign a CVE identifier before contacting authors.
+When we confirm that a vulnerability exists, we will assign a CVE identifier before contacting authors.
 
-CPANSec has decided that 14-days from the time we contact authors is usually enough time for most projects, and provides a good balance between giving authors enough time to fix a release and users timely information that they can use,
+The default disclosure date is 14-days from the time we contact authors is usually enough time to fix most issues, and provides a good balance between giving authors enough time to fix a release and users timely information that they can use.
+When there are multiple issues, or more complex issues, we will suggest more time.
 
 When we reach out to module authors about a security issue, we will notify them of this policy, with the *planned* disclosure date.
-Authors can and should always request an extension if they need one, and we will work with them.
+Authors can and should always request more time when needed, and we will work with them.
+
+When issues require more time, thrn authors should request that we delay the disclosure date.
 
 We also offer to provide assistance, including proof-of-concept scripts and suggested patches.
 
