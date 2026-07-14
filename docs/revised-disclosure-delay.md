@@ -113,7 +113,7 @@ Next, add a [security policy](https://security.metacpan.org/docs/guides/security
 Source repositories like GitHub support setting up [private security advisory reporting form](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository),
 that allows people to create private issues and forks which you and your collaborators can work on.
 
-If you do not want to maintain a module anymore, flag that by handing maintenance to [ADOPTME](https://neilb.org/2013/08/07/adoptme.html).
+If you do not want to maintain a module anymore, flag this by handing maintenance to [ADOPTME](https://neilb.org/2013/08/07/adoptme.html).
 You'll still have maintenance rights but another author will be able to take it over.
 You can also announce this in other forums to find interested authors who might take the module over.
 
