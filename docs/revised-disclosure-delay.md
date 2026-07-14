@@ -23,7 +23,7 @@ authors:
   community consider AI-discoverable issues to be effectively public already.
 - This makes long embargoes riskier: users need timely information so they
   can mitigate, whether or not a fix is available upstream.
-- Once we confirm a vulnerability, we assign a CVE identifier,
+- Once we confirm that a vulnerability exists and is in our scope, we assign a CVE identifier,
   notify the author, and set a planned disclosure date, after which the
   CVE is published.
 - The default disclosure period is 14 days, but this is a recommendation,
@@ -55,7 +55,7 @@ There are consequences to this change.
 
 Whether we like it or not, the source code of many open source projects have been ingested by LLMs, and people are using those LLMs to discover security and bugs.
 
-### Long embargos for vulnerabilities about open source projects problematic
+### Long embargos for vulnerabilities about open source projects are problematic
 
 If the availability of this technology means that reports are public, then attackers have access to this too.
 
