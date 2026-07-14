@@ -6,7 +6,7 @@ date: 2026-07-11 12:00:00 +0100
 collection: news
 tags: cna cve embargo llm ai disclosure
 authors:
-  - robrwo
+  - cpansec
 author_profile: false
 header:
   overlay_image: /assets/images/header/SJN07451.JPG
