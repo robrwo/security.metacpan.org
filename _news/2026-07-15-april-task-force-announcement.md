@@ -16,7 +16,7 @@ The April Task Force is fiscally hosted by The Perl and Raku Foundation and back
 
 This funding follows the [September 2025 OpenSSF open letter](https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/) and the wider recognition that the major package registries – CPAN among them – need structured investment to keep pace with commercial-scale use.
 
-![](https://codimd.mackintosh.me/uploads/ce258c79-0829-427a-9abe-ecf668a73457.jpg)
+![April Task Force group picture](../media/april-task-force-workshop-group-picture.jpg)
 > [name=Photography: Stian Kristoffersen; Editing: Salve J. Nilsen]
 > From left: Paul Johnson, Stig Palmquist, Leon Timmermans, Robert Rothenberg, Salve J. Nilsen, Timothy Legge, and Olaf Alders.
 
