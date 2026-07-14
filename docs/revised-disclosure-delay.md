@@ -92,7 +92,8 @@ If we have not received a response from the author, we may post issues about a v
 
 Our [advice](https://security.metacpan.org/docs/guides/maintainer-security-reports.html) is "Don't panic" and also "Don't be ashamed".
 We understand.
-A lot of us are perfectionists and/or some pride into our work, and security issues and other bugs can sting.
+A lot of us are perfectionists and place some pride into our work.
+Security issues and other bugs can sting.
 
 Asking authors to fix security issues and publishing security advisories about their modules is not in any way about threats, coercion, or public shaming.
 Nobody has done anything wrong, and this is in no way a criticism or comment about anyone's skills as a programmer.
