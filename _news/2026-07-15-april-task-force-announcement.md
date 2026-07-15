@@ -17,6 +17,9 @@ header:
   teaser: assets/images/teaser/SJN08080.JPG
   overlay_filter: 0.6
   caption: "Photo credit: [@sjn](https://github.com/sjn)"
+redirect_from:
+    - /2026/07/14/april-task-force-announcement
+    - /2026/07/14/april-task-force-announcement.html
 ---
 
 # Announcing the April Task Force
