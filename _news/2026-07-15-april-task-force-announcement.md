@@ -46,19 +46,19 @@ The task force will be focusing on:
 ## The team
 
 Leon Timmermans
-: Core Perl, encryption-related modules, Perl Steering Council member
+: Perl Steering Council member; Core Perl security, encryption-related modules
 
 Olaf Alders
-: MetaCPAN founder, CPAN publishing infrastructure
+: MetaCPAN founder; CPAN publishing infrastructure, auditing CVE findings, maintainer outreach, patches development; Grant manager
 
 Paul Johnson
-: CPAN XS distributions; Devel::Cover project lead
+: Devel::Cover project lead; CPAN XS distributions, process automation
 
 Robert Rothenberg
 : Vulnerability research, CVE reporting, communication, triage workflow
 
 Salve J. Nilsen
-: Project facilitation, organizational design, compliance and metadata
+: Project facilitation, organizational design, policy, compliance and metadata, sustainability
 
 Stig Palmquist
 : Vulnerability research, exploit development, CNA process
