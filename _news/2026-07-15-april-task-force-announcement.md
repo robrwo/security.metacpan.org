@@ -90,7 +90,7 @@ The April Task Force provides a new opportunity to facilitate a "shift left" for
 Furthermore, we are exploring novel funding mechanisms expected through the EU Cyber Resilience Act, to facilitate the support of Perl and CPAN projects and communities through offering compliance-relevant assurances.
 
 
-## How to engage
+# How to engage
 
 - [Report vulnerabilities](https://security.cpansec.org "Vulnerability reporting instructions") through the CPAN Security Group.
 - [Engage directly](mailto:cpan-security@security.metacpan.org "Email CPANSec") with the CPAN Security Group on enterprise concerns.
@@ -100,15 +100,14 @@ Furthermore, we are exploring novel funding mechanisms expected through the EU C
 The digital commons Perl and CPAN are part of, and industry relies on, cannot thrive on bystanders. Industry engagement is key both for its own long-term security posture, and for society at large.
 
 
-### About the CPAN Security Group
+## About the CPAN Security Group
 
 The CPAN Security Group (CPANSec) is a group of volunteers from the Perl community who work to support the security of the Perl ecosystem through education and outreach, security analysis of open source Perl distributions on CPAN, and support for fixing security vulnerabilities. CPANSec was founded at the Perl Toolchain Summit 2023 in Lyon.
 
 
-### About the Perl and Raku Foundation
+## About the Perl and Raku Foundation
 
-FIXME
-
+The Perl and Raku Foundation (TPRF) is a volunteer-led 501(c)(3) non-profit dedicated to advancing the Perl and Raku programming languages. The foundation provides financial, legal, and organisational stewardship that keeps both languages freely available and actively developed — funding core maintenance and development grants, producing community conferences, and supporting shared infrastructure and user groups.
 
 ## Links
 
