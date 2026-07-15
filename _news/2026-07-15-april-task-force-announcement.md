@@ -1,11 +1,24 @@
 ---
-title: Announcing the April Task Force
+layout: single
+title: Announcing the April Task Force - a project for strengthening the CPAN CNA function
 subtitle: CPAN Security Group and The Perl and Raku Foundation
-brand: tprf
 toc: false
 authors:
+    - cpansec
     - sjn
     - sjm
+    - oalders
+toc: false
+date: 2026-07-14 11:00:00 +0200
+collection: news
+tags: cpan security April task force CNA LLM AI
+author_profile: true
+header:
+  overlay_image: /assets/images/header/SJN08080.JPG
+  teaser: assets/images/teaser/SJN08080.JPG
+  overlay_filter: 0.6
+  caption: "Photo credit: [@sjn](https://github.com/sjn)"
+
 ---
 
 # Announcing the April Task Force
@@ -16,9 +29,9 @@ The April Task Force is fiscally hosted by The Perl and Raku Foundation and back
 
 This funding follows the [September 2025 OpenSSF open letter](https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/) and the wider recognition that the major package registries – CPAN among them – need structured investment to keep pace with commercial-scale use.
 
-![April Task Force group picture](../media/april-task-force-workshop-group-picture.jpg)
-> [name=Photography: Stian Kristoffersen; Editing: Salve J. Nilsen]
-> From left: Paul Johnson, Stig Palmquist, Leon Timmermans, Robert Rothenberg, Salve J. Nilsen, Timothy Legge, and Olaf Alders.
+{% figure caption:"Photo: Stian Kristoffersen; Editing: Salve J. Nilsen; In picture, from left: Paul Johnson, Stig Palmquist, Leon Timmermans, Robert Rothenberg, Salve J. Nilsen, Timothy Legge, and Olaf Alders." %}
+![April Task Force group picture](/media/april-task-force-workshop-group-picture.jpg)
+{% endfigure %}
 
 ## Scope and work
 
@@ -101,7 +114,7 @@ FIXME
 
 ## Links
 
-- CPAN Security Group: https://security.metacpan.org
-- The Perl and Raku Foundation: https://www.perlfoundation.org
-- September 2025 OpenSSF open letter: https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/
-- Alpha-Omega: https://alpha-omega.dev
+- CPAN Security Group: [https://security.metacpan.org](https://security.metacpan.org)
+- The Perl and Raku Foundation: [https://www.perlfoundation.org](https://www.perlfoundation.org)
+- September 2025 OpenSSF open letter: [https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/](https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/)
+- Alpha-Omega: [https://alpha-omega.dev](https://alpha-omega.dev)
