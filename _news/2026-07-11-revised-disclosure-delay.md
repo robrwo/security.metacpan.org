@@ -31,4 +31,4 @@ Some CPAN authors have expressed concerns about this change so we wanted to deta
   not a hard deadline.  Maintainers who need more time can request an
   extension, and we will work with them.
 
-See [CPANSec Has Revied Our Default Disclosure Date](/docs/revised-disclosure-delay) for the full document.
+See [CPANSec Has Revised Our Default Disclosure Date](/docs/revised-disclosure-delay) for the full document.
