@@ -40,7 +40,7 @@ The task force will be focusing on:
 - Vulnerability work — measurable backlog reduction in core Perl, CPAN tooling, and critical distributions
 - Supply chain security — improved CPAN maturity against the OpenSSF Principles for Package Repository Security
 - Long-term sustainability and funding of the Perl and CPAN security communities and ecosystem
-- Participation in and contribution to Alpha-Omega's cross-ecosystem forum for package registries
+- Participation in and contribution to Alpha-Omega's _Security engineers-in-residence_ program, and cross-ecosystem forum for package registries
 
 
 ## The team
@@ -55,16 +55,16 @@ Paul Johnson
 : Devel::Cover project lead; CPAN XS distributions, process automation
 
 Robert Rothenberg
-: Vulnerability research, CVE reporting, communication, triage workflow
+: Long-term contributor to open source and Perl; Vulnerability research, CVE reporting, communication, triage workflow
 
 Salve J. Nilsen
-: Project facilitation, organizational design, policy, compliance and metadata, sustainability
+: Long-term Perl community volunteer; Project facilitation, organizational design, policy, compliance and metadata, sustainability
 
 Stig Palmquist
 : Vulnerability research, exploit development, CNA process
 
 Timothy Legge
-: CNA process, triage workflow, vulnerability research
+: Cybersecurity professional; CNA process, triage workflow, vulnerability research
 
 
 ## _Fiscal host_: The Perl and Raku Foundation
@@ -75,7 +75,7 @@ With this funding, the foundation for the first time puts on the mantle of a fac
 
 This is both in recognition of the changing legislative landscape, where EU regulations like NIS2 and CRA will require businesses to secure their applications, services and products – and that these changes in this landscape are likely to affect the Open Source Software projects affected businesses rely on.
 
-While the core activities that make Open Source fun and worth doing should remain and be protected, there is new work laid before us. Some of it is boring, but necessary.
+While the core activities that make Open Source fun and worth doing should remain and be protected, there is new work laid before us. Some of it is necessary, but too tedious to attract volunteers.
 
 
 ### A change in how Perl and CPAN Security can be supported
