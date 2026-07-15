@@ -76,13 +76,14 @@ And CPANSec needs the support and trust of the authors and users.
 
 When we confirm that a vulnerability exists, we will assign a CVE identifier before contacting authors.
 
-The default disclosure date is 14-days from the time we contact authors is usually enough time to fix most issues, and provides a good balance between giving authors enough time to fix a release and users timely information that they can use.
+The default disclosure date is 14-days from the time we contact authors is usually enough time to fix most issues.
+That provides a good balance between giving authors enough time to fix a release and giving users timely information that they can use.
 When there are multiple issues, or more complex issues, we will suggest more time.
 
 When we reach out to module authors about a security issue, we will notify them of this policy, with the *planned* disclosure date.
 Authors can and should always request more time when needed, and we will work with them.
 
-When issues require more time, thrn authors should request that we delay the disclosure date.
+When issues require more time, then authors should request that we delay the disclosure date.
 
 We also offer to provide assistance, including proof-of-concept scripts and suggested patches.
 
