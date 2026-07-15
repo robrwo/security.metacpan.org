@@ -1,14 +1,13 @@
 ---
 layout: single
-title: Announcing the April Task Force - a project for strengthening the CPAN CNA function
-subtitle: CPAN Security Group and The Perl and Raku Foundation
-toc: false
+title: Announcing the April Task Force
+excerpt: A project for strengthening the CPAN CNA function, and more.
 authors:
     - cpansec
     - sjn
     - sjm
     - oalders
-toc: false
+toc: true
 date: 2026-07-14 11:00:00 +0200
 collection: news
 tags: cpan security April task force CNA LLM AI
@@ -18,14 +17,13 @@ header:
   teaser: assets/images/teaser/SJN08080.JPG
   overlay_filter: 0.6
   caption: "Photo credit: [@sjn](https://github.com/sjn)"
-
 ---
 
 # Announcing the April Task Force
 
 CPAN Security Group and The Perl and Raku Foundation are happy to announce the April Task Force. This project is set up to strengthen the CPANSec CNA Function, improve the security posture of CPAN and Perl, and to help prepare these communities for the impact expected from the general availability of security analysis-capable Large Language Models.
 
-The April Task Force is fiscally hosted by The Perl and Raku Foundation and backed by a grant from Linux Foundation and OpenSSF though the [Alpha-Omega](https://alpha-omega.dev/about/about-alpha-omega/ "About Alpha-Omega") project.
+The April Task Force is fiscally hosted by The Perl and Raku Foundation and backed by a grant from Linux Foundation and OpenSSF through the [Alpha-Omega](https://alpha-omega.dev/about/about-alpha-omega/ "About Alpha-Omega") project.
 
 This funding follows the [September 2025 OpenSSF open letter](https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/) and the wider recognition that the major package registries – CPAN among them – need structured investment to keep pace with commercial-scale use.
 
@@ -68,9 +66,9 @@ Timothy Legge
 : CNA process, triage workflow, vulnerability research
 
 
-# _Fiscal host_ – The Perl and Raku Foundation
+## _Fiscal host_: The Perl and Raku Foundation
 
-The Perl and Raku Foundation has predominantly assumed a "hands-off" role in the Perl and Raku communites, following a "servant leadership" philosophy for supporting these.
+The Perl and Raku Foundation has predominantly assumed a "hands-off" role in the Perl and Raku communities, following a "servant leadership" philosophy for supporting these.
 
 With this funding, the foundation for the first time puts on the mantle of a facilitator and fiscal host.
 
@@ -79,7 +77,7 @@ This is both in recognition of the changing legislative landscape, where EU regu
 While the core activities that make Open Source fun and worth doing should remain and be protected, there is new "work" laid before us. Some of it is boring, but necessary.
 
 
-## A change in how Perl and CPAN Security can be supported
+### A change in how Perl and CPAN Security can be supported
 
 In their grant letter, the Linux Foundation state it succinctly.
 
@@ -92,22 +90,22 @@ The April Task Force provides a new opportunity to facilitate a "shift left" for
 Furthermore, we are exploring novel funding mechanisms expected through the EU Cyber Resilience Act, to facilitate the support of Perl and CPAN projects and communities through offering compliance-relevant assurances.
 
 
-# How to engage
+## How to engage
 
 - [Report vulnerabilities](https://security.cpansec.org "Vulnerability reporting instructions") through the CPAN Security Group.
 - [Engage directly](mailto:cpan-security@security.metacpan.org "Email CPANSec") with the CPAN Security Group on enterprise concerns.
 - Allocate software engineering and security champion resources to OSS security work.
 - Prepare your budgets for sustained support of your digital infrastructure commons.
 
-The digital commons Perl and CPAN are part of, and industry relies on, cannot thrive on bystanders. Industry engagement is key both for their own long term security posture, and for society at large.
+The digital commons Perl and CPAN are part of, and industry relies on, cannot thrive on bystanders. Industry engagement is key both for its own long-term security posture, and for society at large.
 
 
-## About the CPAN Security Group
+### About the CPAN Security Group
 
 The CPAN Security Group (CPANSec) is a group of volunteers from the Perl community who work to support the security of the Perl ecosystem through education and outreach, security analysis of open source Perl distributions on CPAN, and support for fixing security vulnerabilities. CPANSec was founded at the Perl Toolchain Summit 2023 in Lyon.
 
 
-## About the Perl and Raku Foundation
+### About the Perl and Raku Foundation
 
 FIXME
 
