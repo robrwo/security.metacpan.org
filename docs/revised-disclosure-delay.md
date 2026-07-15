@@ -72,7 +72,7 @@ A consensus in the security community is leaning towards a shorter disclosure de
 
 The Perl ecosystem (like other open-source ecosystems) is not a single project, but a community of multiple projects and multiple users.
 CPANSec needs to support the authors *and* the users.
-And CPANSec needs the support and trust of the authors and users.
+And CPANSec needs the *trust* of the authors and users.
 
 When we confirm that a vulnerability exists, we will assign a CVE identifier before contacting authors.
 
