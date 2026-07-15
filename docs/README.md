@@ -12,6 +12,7 @@ Documents relevant to the CPAN Security Group.
 * [Report an Incident](report.md)
 * [CNA Disclosure Policy](cna-disclosure-policy.md)
 * [CNA Vulnerability Report to CVE Workflow](cve-workflow.md) ⚠️  DRAFT
+* [CNA Revised Default Disclosure Dates](revised-disclosure-delay.md)
 
 ### Frequently Asked Questions
 
