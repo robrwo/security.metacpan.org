@@ -8,7 +8,7 @@ authors:
     - sjm
     - oalders
 toc: true
-date: 2026-07-14 11:00:00 +0200
+date: 2026-07-15 22:00:00 +0200
 collection: news
 tags: cpan security April task force CNA LLM AI
 author_profile: true
