@@ -23,13 +23,14 @@ header:
 
 CPAN Security Group and The Perl and Raku Foundation are happy to announce the April Task Force. This project is set up to strengthen the CPANSec CNA Function, improve the security posture of CPAN and Perl, and to help prepare these communities for the impact expected from the general availability of security analysis-capable Large Language Models.
 
-The April Task Force is fiscally hosted by The Perl and Raku Foundation and backed by a grant from Linux Foundation and OpenSSF through the [Alpha-Omega](https://alpha-omega.dev/about/about-alpha-omega/ "About Alpha-Omega") project.
+The April Task Force is fiscally hosted by The Perl and Raku Foundation and backed by a USD 250,000.00 grant from Linux Foundation and OpenSSF through the [Alpha-Omega](https://alpha-omega.dev/about/about-alpha-omega/ "About Alpha-Omega") project.
 
 This funding follows the [September 2025 OpenSSF open letter](https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/) and the wider recognition that the major package registries – CPAN among them – need structured investment to keep pace with commercial-scale use.
 
 {% figure caption:"Photo: Stian Kristoffersen; Editing: Salve J. Nilsen; In picture, from left: Paul Johnson, Stig Palmquist, Leon Timmermans, Robert Rothenberg, Salve J. Nilsen, Timothy Legge, and Olaf Alders." %}
 ![April Task Force group picture](/media/april-task-force-workshop-group-picture.jpg)
 {% endfigure %}
+
 
 ## Scope and work
 
@@ -45,22 +46,22 @@ The task force will be focusing on:
 ## The team
 
 Leon Timmermans
-: Core Perl, encryption-related modules; Perl Steering Council member
+: Core Perl, encryption-related modules, Perl Steering Council member
 
 Olaf Alders
-: MetaCPAN founder; CPAN publishing infrastructure
+: MetaCPAN founder, CPAN publishing infrastructure
 
 Paul Johnson
 : CPAN XS distributions; Devel::Cover project lead
 
 Robert Rothenberg
-: CVE reporting, communication, triage workflow
+: Vulnerability research, CVE reporting, communication, triage workflow
 
 Salve J. Nilsen
-: Project facilitation, organisational design, compliance and metadata
+: Project facilitation, organizational design, compliance and metadata
 
 Stig Palmquist
-: Vulnerability research, exploit development; CNA process
+: Vulnerability research, exploit development, CNA process
 
 Timothy Legge
 : CNA process, triage workflow, vulnerability research
@@ -107,7 +108,7 @@ The CPAN Security Group (CPANSec) is a group of volunteers from the Perl communi
 
 ## About the Perl and Raku Foundation
 
-The Perl and Raku Foundation (TPRF) is a volunteer-led 501(c)(3) non-profit dedicated to advancing the Perl and Raku programming languages. The foundation provides financial, legal, and organisational stewardship that keeps both languages freely available and actively developed — funding core maintenance and development grants, producing community conferences, and supporting shared infrastructure and user groups.
+The Perl and Raku Foundation (TPRF) is a volunteer-led 501(c)(3) non-profit dedicated to advancing the Perl and Raku programming languages. The foundation provides financial, legal, and organizational stewardship that keeps both languages freely available and actively developed — funding core maintenance and development grants, producing community conferences, and supporting shared infrastructure and user groups.
 
 ## Links
 
