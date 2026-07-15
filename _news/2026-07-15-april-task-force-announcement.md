@@ -99,7 +99,7 @@ Furthermore, we are exploring novel funding mechanisms expected through the EU C
 - Allocate software engineering and security champion resources to OSS security work.
 - Prepare your budgets for sustained support of your digital infrastructure commons.
 
-The digital commons Perl and CPAN are part, and industry relies on, cannot thrive on bystanders. Industry engagement is key both for their own long term security posture, and for society at large.
+The digital commons Perl and CPAN are part of, and industry relies on, cannot thrive on bystanders. Industry engagement is key both for their own long term security posture, and for society at large.
 
 
 ## About the CPAN Security Group
