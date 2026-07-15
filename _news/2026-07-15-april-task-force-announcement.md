@@ -21,7 +21,7 @@ header:
 
 # Announcing the April Task Force
 
-CPAN Security Group and The Perl and Raku Foundation are happy to announce the April Task Force. This project is set up to strengthen the CPANSec CNA Function, improve the security posture of CPAN and Perl, and to help prepare these communities for the impact expected from the general availability of security analysis-capable Large Language Models.
+CPAN Security Group (CPANSec) and The Perl and Raku Foundation (TPRF) are happy to announce the April Task Force. This project is set up to strengthen the CPANSec CNA Function, improve the security posture of CPAN and Perl, and to help prepare these communities for the impact expected from the general availability of security analysis-capable Large Language Models.
 
 The April Task Force is fiscally hosted by The Perl and Raku Foundation and backed by a USD 250,000.00 grant from Linux Foundation and OpenSSF through the [Alpha-Omega](https://alpha-omega.dev/about/about-alpha-omega/ "About Alpha-Omega") project.
 
