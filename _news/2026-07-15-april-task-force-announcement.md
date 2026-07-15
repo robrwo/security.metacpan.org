@@ -75,7 +75,7 @@ With this funding, the foundation for the first time puts on the mantle of a fac
 
 This is both in recognition of the changing legislative landscape, where EU regulations like NIS2 and CRA will require businesses to secure their applications, services and products – and that these changes in this landscape are likely to affect the Open Source Software projects affected businesses rely on.
 
-While the core activities that make Open Source fun and worth doing should remain and be protected, there is new "work" laid before us. Some of it is boring, but necessary.
+While the core activities that make Open Source fun and worth doing should remain and be protected, there is new work laid before us. Some of it is boring, but necessary.
 
 
 ### A change in how Perl and CPAN Security can be supported
