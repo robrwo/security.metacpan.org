@@ -15,8 +15,6 @@ authors:
 
 # CPANSec Has Revised Our Default Disclosure Dates
 
-[TOC]
-
 ## Summary (TL;DR)
 
 - LLMs are accelerating vulnerability discovery, and many in the security
