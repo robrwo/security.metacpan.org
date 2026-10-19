@@ -184,6 +184,11 @@ CVEs are often published with mitigation advice or patches that you can apply.
 If the vulnerability is for a feature that you are not using, then it may not be relevant.
 If you choose not to upgrade because you are not using the vulnerable feature, take care to ensure that future versions of your software cannot use the vulnerable feature.
 
+### Why doesn't CPANSec assign severity scores to CVEs?
+
+CPAN modules may be used in different environments, running on different Perl versions and interacting with other Perl modules.
+It is difficult to assign a severity (CVSS) scores due to the complexity of this.
+
 ## Process and community concerns
 
 ### I've just received a vulnerability report. What do I do?
